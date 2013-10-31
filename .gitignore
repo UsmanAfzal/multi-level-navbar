@@ -1,6 +1,11 @@
-node_modules
-dist
-.tmp
 .sass-cache
+.tmp
 app
+node_modules
+.bowerrc
+.editorconfig
+.jshintrc
+bower.json
+gruntfile.json
+package.json
 .idea
