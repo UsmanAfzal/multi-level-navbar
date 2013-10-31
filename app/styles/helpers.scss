@@ -1,0 +1,15 @@
+$white: #fff;
+$dark-red: #990909;
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  margin: 0;
+  padding: 0;
+}
+
+ul { list-style-type: none; padding: 0; margin: 0; font-size: 0; }
+ul li { display: inline-block; }
+h2 { margin: 10px 0 5px 0; font-size: 16px; }
+p { line-height: 1.3; }
