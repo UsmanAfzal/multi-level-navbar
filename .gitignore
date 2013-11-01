@@ -1,11 +1,5 @@
 .sass-cache
 .tmp
-app
 node_modules
-.bowerrc
-.editorconfig
 .jshintrc
-bower.json
-gruntfile.js
-package.json
 .idea
