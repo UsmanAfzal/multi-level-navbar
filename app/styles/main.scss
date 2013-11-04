@@ -8,7 +8,7 @@ body {
   div.container {
     min-width: 746px;
     max-width: 1047px;
-    padding: 136px 0;
+    padding: 0;
     margin: 0 auto;
 
     #main-nav {
@@ -20,17 +20,17 @@ body {
 
         a { color: $dark-blue; text-decoration: none; ; display: block; padding: 6px 12px 5px; border-right: 1px solid #bbb; }
 
-        > div { display: none; position: absolute; left: 0; width: 100%; background-color: $dark-blue; text-shadow: none; min-height: 670px; color: $white; font-size: $standard-size-font; font-weight: normal;
+        > div { display: none; padding: 40px 12px 12px; position: absolute; left: 0; width: 100%; background-color: $dark-blue; text-shadow: none; min-height: 670px; color: $white; font-size: $standard-size-font; font-weight: normal;
 
-          > div { position: absolute; right: 0; top: 0; padding: 20px 12px; width: 33%; font-size: $standard-size-font + 0.5em; z-index: 0; }
+          > div { position: absolute; right: 0; top: 0; padding: 50px 12px; width: 33%; font-size: $standard-size-font + 0.5em; z-index: 0; }
 
           > h2 { margin: 12px; }
 
           dl:first-child { padding-top: 0; }
 
-          dl { width: 33%; margin: 0; padding-top: 20px; z-index: 1;
+          dl { width: 33%; margin: 0; padding-top: 40px; z-index: 1;
 
-            dt { padding: 12px; font-weight: bold; font-size: 1.2em; }
+            dt { font-weight: bold; font-size: 1.2em; }
 
             dd { display: block; padding: 0 12px; margin: 0; background: url('../images/nav-icon.png') no-repeat 96% center;
 
@@ -38,7 +38,7 @@ body {
 
               a:hover { color: $dark-blue; }
 
-              > div { display: none; position: absolute; top: 0; left: 33%; width: 67%; padding: 0 12px 12px; height: 100%; z-index: 2;
+              > div { display: none; position: absolute; top: 0; left: 33%; width: 67%; padding: 30px 12px 12px; height: 100%; z-index: 2;
 
                 > div { position: static; width: 49%; background-color: $white; padding: 10px; margin-top: 15px; color: $dark-blue; z-index: 3;
 
@@ -56,7 +56,7 @@ body {
               }
 
               dl {
-                top: 0; left: 33%; position: absolute; display: none; padding: 0; min-height: 100%; background-color: $dark-blue; color: $white; z-index: 4;
+                top: 0; left: 33%; position: absolute; display: none; padding: 40px 2px 12px; min-height: 100%; background-color: $dark-blue; color: $white; z-index: 4;
 
                 dl { left: 100%; width: 100%; min-height: 100%;
 
@@ -77,11 +77,13 @@ body {
 
           }
 
+          input[type=button] { position: absolute; right: 0; top: 0; margin: 12px; padding: 0; width: 40px; z-index: 6; }
+
         }
 
       }
 
-      li:hover { background-color: $dark-blue; color: $white; border-color: $dark-blue; }
+      /*li:hover { background-color: $dark-blue; color: $white; border-color: $dark-blue; }*/
       li:hover > a { background-color: $dark-blue; color: $white; border-color: $dark-blue; }
       li:hover > div { display: block; }
 

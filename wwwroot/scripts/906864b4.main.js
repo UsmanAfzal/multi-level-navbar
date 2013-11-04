@@ -1,1 +1,0 @@
-$(function(){$("#close").click(function(a){a.preventDefault(),a.stopPropagation,$("#main-nav li div").css("display","none")})});

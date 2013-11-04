@@ -1,0 +1,1 @@
+$("#main-nav li").hover(function(){"use strict";$(this).children("div").show()},function(){"use strict";$(this).children("div").hide()}),$(function(){$("#main-nav li .close").click(function(a){a.preventDefault(),a.stopPropagation,$("#main-nav li > div.dropdown").hide()})});

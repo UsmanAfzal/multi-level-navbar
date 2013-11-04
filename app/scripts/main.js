@@ -1,11 +1,11 @@
-/*$('#main-nav li').hover(function () {
+$('#main-nav li').hover(function () {
         'use strict';
-        $(this).children('div').slideDown(500);
+        $(this).children('div').show();
     },
     function () {
         'use strict';
-        $(this).children('div').fadeOut(0);
-    });*/
+        $(this).children('div').hide();
+    });
 
 /*$('#main-nav li').hover(function() {
         'use strict';
@@ -19,10 +19,10 @@
 });*/
 
 $(function(){
-    $('#close').click(function(e){
+    $('#main-nav li .close').click(function(e){
         e.preventDefault(); // prevent the default action
         e.stopPropagation; // stop the click from bubbling
-        $('body div.container #main-nav li:hover > div').css('visibility', 'hidden');
+        $('#main-nav li > div.dropdown').hide();
     });
 });
 
